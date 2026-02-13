@@ -128,6 +128,10 @@ const Home: React.FC = () => {
                   src="https://i.ibb.co/Hf3tsJSc/APAQ0S-2.jpg" 
                   alt="Heavy Construction Equipment" 
                   className="w-full h-[320px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="320"
                 />
               </div>
               <div className="w-full md:w-1/2">
@@ -145,6 +149,10 @@ const Home: React.FC = () => {
                   src="https://i.ibb.co/p64FV7F3/APAQ0S-4.jpg" 
                   alt="Agricultural & Farm Machinery" 
                   className="w-full h-[320px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="320"
                 />
               </div>
               <div className="w-full md:w-1/2">
@@ -162,6 +170,10 @@ const Home: React.FC = () => {
                   src="https://i.ibb.co/Gfpr2Q2R/AP8977-1.jpg" 
                   alt="Industrial Manufacturing Units" 
                   className="w-full h-[320px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="320"
                 />
               </div>
               <div className="w-full md:w-1/2">
@@ -179,6 +191,10 @@ const Home: React.FC = () => {
                   src="https://i.ibb.co/N6bcYsBJ/AP5480-1.jpg" 
                   alt="Material Handling & Lifting" 
                   className="w-full h-[320px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="320"
                 />
               </div>
               <div className="w-full md:w-1/2">
@@ -225,6 +241,10 @@ const Home: React.FC = () => {
               src="https://i.ibb.co/chDYMb4r/AP6BD1-1.jpg" 
               alt="Leading Exporter Workers" 
               className="w-full shadow-md"
+              loading="lazy"
+              decoding="async"
+              width="640"
+              height="480"
             />
           </div>
           <div className="md:w-1/2">

@@ -176,18 +176,41 @@
     <script>
         document.body.classList.add('js-enabled');
         
-        // Handle preloader removal
-        window.addEventListener('load', () => {
+        /**
+         * Wait for both the window load event AND for all existing 
+         * images to be complete. This ensures the preloader doesn't 
+         * hide while layout shifts are still occurring.
+         */
+        function waitForAssets() {
             const preloader = document.getElementById('preloader');
             const body = document.body;
             
-            setTimeout(() => {
-                if (preloader) {
-                    preloader.classList.add('fade-out');
-                    body.classList.remove('loading');
-                }
-            }, 500); // Slight delay for smoothness
-        });
+            // Collect all images currently in the DOM
+            const images = Array.from(document.images);
+            
+            const imagePromises = images.map(img => {
+                if (img.complete) return Promise.resolve();
+                return new Promise(resolve => {
+                    img.onload = img.onerror = resolve;
+                });
+            });
+
+            // Wait for both window load and image resolution
+            Promise.all([
+                new Promise(resolve => window.addEventListener('load', resolve)),
+                ...imagePromises
+            ]).then(() => {
+                // Smoothly fade out the preloader
+                setTimeout(() => {
+                    if (preloader) {
+                        preloader.classList.add('fade-out');
+                        body.classList.remove('loading');
+                    }
+                }, 400); 
+            });
+        }
+
+        waitForAssets();
     </script>
     
     <div id="root"></div>

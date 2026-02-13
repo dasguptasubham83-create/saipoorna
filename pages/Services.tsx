@@ -40,7 +40,15 @@ const Services: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
             <div className="w-full md:w-1/2">
               <a href="https://imgbb.com/" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/9mPkztqM/image.png" alt="Machinery Sourcing" className="w-full h-[350px] object-cover shadow-sm" />
+                <img 
+                  src="https://i.ibb.co/9mPkztqM/image.png" 
+                  alt="Machinery Sourcing" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
+                />
               </a>
             </div>
             <div className="w-full md:w-1/2">
@@ -55,7 +63,15 @@ const Services: React.FC = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-20">
             <div className="w-full md:w-1/2">
               <a href="https://ibb.co/LdYLqs68" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/HTBWM9YV/image.png" alt="Global Logistics" className="w-full h-[350px] object-cover shadow-sm" />
+                <img 
+                  src="https://i.ibb.co/HTBWM9YV/image.png" 
+                  alt="Global Logistics" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
+                />
               </a>
             </div>
             <div className="w-full md:w-1/2">
@@ -70,7 +86,15 @@ const Services: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
             <div className="w-full md:w-1/2">
               <a href="https://imgbb.com/" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/xtqkDVrs/image.png" alt="Customs Clearance" className="w-full h-[350px] object-cover shadow-sm" />
+                <img 
+                  src="https://i.ibb.co/xtqkDVrs/image.png" 
+                  alt="Customs Clearance" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
+                />
               </a>
             </div>
             <div className="w-full md:w-1/2">
@@ -85,7 +109,15 @@ const Services: React.FC = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-20">
             <div className="w-full md:w-1/2">
               <a href="https://ibb.co/xqN7DMn2" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/B29Ctghf/1.jpg" alt="Quality Inspection" className="w-full h-[350px] object-cover shadow-sm" />
+                <img 
+                  src="https://i.ibb.co/B29Ctghf/1.jpg" 
+                  alt="Quality Inspection" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
+                />
               </a>
             </div>
             <div className="w-full md:w-1/2">
@@ -100,7 +132,15 @@ const Services: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
             <div className="w-full md:w-1/2">
               <a href="https://ibb.co/8DmkmdRW" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/Gvdmdt1K/image.jpg" alt="Packaging & Secure Shipping" className="w-full h-[350px] object-cover shadow-sm" />
+                <img 
+                  src="https://i.ibb.co/Gvdmdt1K/image.jpg" 
+                  alt="Packaging & Secure Shipping" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
+                />
               </a>
             </div>
             <div className="w-full md:w-1/2">
@@ -115,7 +155,15 @@ const Services: React.FC = () => {
           <div className="flex flex-col md:flex-row-reverse items-center gap-12 lg:gap-20">
             <div className="w-full md:w-1/2">
               <a href="https://ibb.co/5WnV0wtS" target="_blank" rel="noopener noreferrer">
-                <img src="https://i.ibb.co/VWQ815rz/2.jpg" alt="After-Sales Support" className="w-full h-[350px] object-cover shadow-sm" />
+                <img 
+                  src="https://i.ibb.co/VWQ815rz/2.jpg" 
+                  alt="After-Sales Support" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
+                />
               </a>
             </div>
             <div className="w-full md:w-1/2">
@@ -133,7 +181,11 @@ const Services: React.FC = () => {
                 <img 
                   src="https://i.ibb.co/tTpCFMwP/bore-machines.png" 
                   alt="Bore Machines" 
-                  className="w-full h-[350px] object-cover shadow-sm" 
+                  className="w-full h-[350px] object-cover shadow-sm"
+                  loading="lazy"
+                  decoding="async"
+                  width="600"
+                  height="350"
                 />
               </a>
             </div>

@@ -26,6 +26,10 @@ const AboutUs: React.FC = () => {
               src="https://i.ibb.co/4RfDqWD9/unnamed.jpg" 
               alt="Truck lifting shipping container" 
               className="w-full max-w-[550px] shadow-sm object-cover"
+              loading="lazy"
+              decoding="async"
+              width="550"
+              height="400"
             />
           </div>
 
