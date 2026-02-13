@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Chatbot from './Chatbot';
+import WhatsAppButton from './WhatsAppButton';
 
 const Footer: React.FC = () => {
   return (
@@ -7,10 +9,11 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
           
-          {/* Column 1: Company Description (Span 4 for more space) */}
+          {/* Column 1: Company Description */}
           <div className="md:col-span-4 lg:pr-12">
-            {/* Logo area replaced with empty space to maintain height and alignment (Logo size was 44px + mb-6) */}
-            <div className="h-[44px] mb-6"></div>
+            <div className="h-[44px] mb-6 flex items-center">
+               <span className="text-[20px] font-bold tracking-[0.1em] uppercase">SAI POORNA</span>
+            </div>
             <p className="text-[15px] leading-relaxed font-medium">
               <span className="font-bold">SAI POORNA</span> is a machinery export company that
               exports heavy machinery across the globe with
@@ -19,7 +22,7 @@ const Footer: React.FC = () => {
             </p>
           </div>
 
-          {/* Column 2: Quick Links (Span 2) */}
+          {/* Column 2: Quick Links */}
           <div className="md:col-span-2">
             <h4 className="text-[18px] font-bold mb-6">Quick Links</h4>
             <ul className="flex flex-col space-y-4 text-[15px]">
@@ -46,7 +49,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Column 3: Our Services (Span 3) */}
+          {/* Column 3: Our Services */}
           <div className="md:col-span-3">
             <h4 className="text-[18px] font-bold mb-6">Our Services</h4>
             <ul className="flex flex-col space-y-4 text-[15px]">
@@ -78,7 +81,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Column 4: Contact Info (Span 3) */}
+          {/* Column 4: Contact Info */}
           <div className="md:col-span-3">
             <h4 className="text-[18px] font-bold mb-6">Contact Info</h4>
             <ul className="flex flex-col space-y-5 text-[15px] font-medium">
@@ -87,7 +90,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex flex-col space-y-1">
                 <span>Phone : +91 9440310266</span>
-                <span className="ml-[62px]">+91 6305197326</span>
+                <span className="ml-0 md:ml-[62px]">+91 6305197326</span>
               </li>
               <li className="flex items-center">
                 <span>Email : saipoornatrading@gmail.com</span>
@@ -102,11 +105,19 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Rights Reserved */}
-        <div className="mt-20 pt-8 text-center md:text-left border-t border-white/5">
-          <p className="text-[13px] opacity-60 tracking-wider">
-            © 2026 Sai Poorna. All rights reserved.
-          </p>
+        {/* Bottom Bar: Copyright & Assistant Icons */}
+        <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-10">
+          <div>
+            <p className="text-[13px] opacity-60 tracking-wider">
+              © 2026 Sai Poorna. All rights reserved.
+            </p>
+          </div>
+          
+          {/* Integrated Assistant Icons */}
+          <div className="flex items-center gap-8 pr-2">
+             <WhatsAppButton />
+             <Chatbot />
+          </div>
         </div>
       </div>
     </footer>

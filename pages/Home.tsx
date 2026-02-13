@@ -17,11 +17,11 @@ const Home: React.FC = () => {
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-6">
-          <h1 className="text-3xl md:text-5xl lg:text-[54px] font-roboto-serif font-[800] leading-tight mb-2 uppercase tracking-tight">
-            SAI POORNA TRADING AGENCIES <span className="font-normal text-2xl md:text-4xl align-middle">IMPORTS &</span>
+          <h1 className="text-3xl md:text-5xl lg:text-[60px] font-cinzel font-[800] leading-tight mb-2 uppercase tracking-[3px] md:tracking-[5px] text-shadow-elegant">
+            SAI POORNA TRADING AGENCIES
           </h1>
-          <h2 className="text-2xl md:text-5xl font-roboto-serif font-[800] mb-6 uppercase tracking-tight">
-            EXPORTS
+          <h2 className="text-2xl md:text-4xl lg:text-[40px] font-['Montserrat'] font-[600] mb-8 uppercase tracking-[4px] md:tracking-[6px] text-shadow-elegant opacity-95">
+            IMPORTS & EXPORTS
           </h2>
           <p className="italic text-lg mb-8 font-medium">Founded in 2020</p>
           <Link 
@@ -123,11 +123,11 @@ const Home: React.FC = () => {
           <div className="flex flex-col space-y-24">
             {/* Block 1: Heavy Construction Equipment */}
             <div className="flex flex-col md:flex-row items-center gap-12">
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 group cursor-pointer">
                 <img 
                   src="https://i.ibb.co/Hf3tsJSc/APAQ0S-2.jpg" 
                   alt="Heavy Construction Equipment" 
-                  className="w-full h-[320px] object-cover shadow-sm"
+                  className="w-full h-[320px] object-cover transition-transform duration-500 ease-out group-hover:scale-108 group-active:scale-108"
                   loading="lazy"
                   decoding="async"
                   width="640"
@@ -144,11 +144,11 @@ const Home: React.FC = () => {
 
             {/* Block 2: Agricultural & Farm Machinery */}
             <div className="flex flex-col md:flex-row-reverse items-center gap-12">
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 group cursor-pointer">
                 <img 
                   src="https://i.ibb.co/p64FV7F3/APAQ0S-4.jpg" 
                   alt="Agricultural & Farm Machinery" 
-                  className="w-full h-[320px] object-cover shadow-sm"
+                  className="w-full h-[320px] object-cover transition-transform duration-500 ease-out group-hover:scale-108 group-active:scale-108"
                   loading="lazy"
                   decoding="async"
                   width="640"
@@ -165,11 +165,11 @@ const Home: React.FC = () => {
 
             {/* Block 3: Industrial Manufacturing Units */}
             <div className="flex flex-col md:flex-row items-center gap-12">
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 group cursor-pointer">
                 <img 
                   src="https://i.ibb.co/Gfpr2Q2R/AP8977-1.jpg" 
                   alt="Industrial Manufacturing Units" 
-                  className="w-full h-[320px] object-cover shadow-sm"
+                  className="w-full h-[320px] object-cover transition-transform duration-500 ease-out group-hover:scale-108 group-active:scale-108"
                   loading="lazy"
                   decoding="async"
                   width="640"
@@ -186,11 +186,11 @@ const Home: React.FC = () => {
 
             {/* Block 4: Material Handling & Lifting */}
             <div className="flex flex-col md:flex-row-reverse items-center gap-12">
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 group cursor-pointer">
                 <img 
                   src="https://i.ibb.co/N6bcYsBJ/AP5480-1.jpg" 
                   alt="Material Handling & Lifting" 
-                  className="w-full h-[320px] object-cover shadow-sm"
+                  className="w-full h-[320px] object-cover transition-transform duration-500 ease-out group-hover:scale-108 group-active:scale-108"
                   loading="lazy"
                   decoding="async"
                   width="640"

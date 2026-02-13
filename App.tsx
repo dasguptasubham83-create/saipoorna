@@ -7,7 +7,6 @@ import Contact from './pages/Contact';
 import Search from './pages/Search';
 import AboutUs from './pages/AboutUs';
 import Services from './pages/Services';
-import WhatsAppButton from './components/WhatsAppButton';
 
 const App: React.FC = () => {
   return (
@@ -25,7 +24,6 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
-        <WhatsAppButton />
       </div>
     </HashRouter>
   );
